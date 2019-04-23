@@ -19,7 +19,6 @@ function onYouTubePlayerAPIReady() {
         $(".fancybox")
             .attr('rel', 'gallery')
             .fancybox({
-              locked: false,
                 arrows : false,
                 openEffect  : 'none',
                 closeEffect : 'none',
