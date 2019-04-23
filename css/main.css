@@ -69,6 +69,10 @@ header nav li a:hover{
     color: #555555;
 }
 
+header nav li a:active{
+    color: white;
+}
+
 header nav .NavItem{
     
     margin-right: 70px;
@@ -100,6 +104,12 @@ article #mainImageBtnHovered{
 article #mainImageBtn:hover{
     opacity: 0;
 }
+
+article #mainImageBtn:active{
+    opacity: 100;
+}
+
+
 
 
 #video{
@@ -190,6 +200,10 @@ article #article_img_2{
     color: #555555;
 }
 
+.subArticle .subArticle_left a:active{
+    color: white;
+}
+
 
 .subArticle .subArticle_right h3{
     margin-left: 6px;
@@ -213,6 +227,10 @@ article #article_img_2{
 
 .subArticle .subArticle_right a:hover{
     color: #555555;
+}
+
+.subArticle .subArticle_right a:active{
+    color: white;
 }
 
 footer p{
